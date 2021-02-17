@@ -1,7 +1,7 @@
 <template>
   <div class="formRadio">
       <form @submit.prevent="onSubmit">
-        <h2>Введите нужно кол-во: (max: 10)</h2>
+        <h2>Введите нужное кол-во: (max: 10)</h2>
         <input type="text" v-model="res">
         <button class="btnSubmit">Get people</button>
       </form>
